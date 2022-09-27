@@ -9,89 +9,96 @@
     <!-- on va lier notre page css de style avec le textede notre html -->
 </head>
 <body>
+    <header>
     <!-- les types de balises-->
     <!-- les balises en paires, par exemple h1 qui correspond au titre principal -->
-    <h1>Arthur ALLIO - Designer & Développeur web</h1>
+        <h1 class="text-center">Arthur ALLIO - Designer & Développeur web</h1>
     <!-- les balises orphelines, comme la balise <img> par exemple -->
-    <img src="assets/img/photo business.PNG" 
-    alt="photo de profil business"
-    width="240PX">
+        <img src="assets/img/photo business.PNG" 
+    alt="photo de profil business">
     <!-- attention, par conveiton on peut fermer une balse orpheline.
         Soit on l'écrit <img> soit pour une meilleure lecture on l'écrit <img/> -->
     
-    <balise attribut ="valeur"/>
-
-    <a href="portfolio.html">Découvrez mes créations !</a>
-
-    <a href="contact.html">Contactez moi</a>
-
-    <p>Accès rapides :</p>
-    <a href="#expPro">Expériences professionnelles</a>
+        <balise attribut ="valeur"/>
+    </header>
     <br>
-    <a href="#formations">Formations</a>
-    
-    <!-- les attributs sont les paramètres de nos balises, ils viennent les compléter pour donner
-    de nouvelles informations : <balise attribut="valeur"/> -->
+    <main>
+        <a href="portfolio.html">Découvrez mes créations !</a>
 
-    <!-- organisation du texte -->
-    <!-- On organise le texte avec les headings, dans not cas nous avons un h1 et voulons un h2 -->
-    <h2>Coordonnées</h2>
-    <!-- on se sert d'un paragraphe pour donner une indication -->
-    <p>je suis disponible tout de suite contactez moi !</p>
-    <!-- J'utilise une balise adresse car je vais rentrer mes coordonnées -->
-    <section>
-        <address>
-            <!-- on utilise la balise anchor <a></a> a pour définir nos liens -->
-            <!-- dans ce cas précis on va donner un lien vers notre courriel -->
-            <a href="mailto:allio.arthur@free.fr">allio.arthur@free.fr</a>
-            <br>
-            <a href="+3617977211">+33-(0)-6-17-97-72-11</a>
-        </address>
-    </section>
+        <a href="contact.html">Contactez moi</a>
+        
+        <!-- accès rapides qui doivent comprendre un # en lien avec un id -->
+        <p>Accès rapides :</p>
+        <a href="#expPro" title="accès à mes expériences professionnelles">Expériences professionnelles</a>
+        <!-- l'attribut title permet d'indiquer l'objectif du lien en mouseover -->
+        <br>
+        <a href="#formations">Formations</a>
+        
+        <!-- les attributs sont les paramètres de nos balises, ils viennent les compléter pour donner
+        de nouvelles informations : <balise attribut="valeur"/> -->
 
-    <section>
-        <h2 id="expPro">Expériences professionnelles</h2>
-        <!-- On va utiliser la liste non ordonnée -->
-        <ul>
-            <!-- On y insère ensuite des puces -->
-            <li>
-                <!-- On place un titre -->
-                <h3>Formateur Chez <span class="red"><a href ="https://www.wf3.fr" target="_blank">WebForce3</a></span></h3>
-                <p>I'm baby bodega boys freegan <b>Schlitz Fingerstache,</b> pitchfork cardigan 90's. Messenger bag knausgaard cray cloud bread salvia.  <br> Actually offal meggings cliche godard listicle. Single-origin coffee fanny pack tilde vexillologist kombucha VHS. <br> Blue bottle vaporware you probably haven't heard of them pinterest.</p>
-            </li>
-            <li>
-                <h3>Formateur Chez <span class="red">WebForce3</span></h3>
-                <p>I'm baby bodega boys freegan <b>Schlitz Fingerstache,</b> pitchfork cardigan 90's. Messenger bag knausgaard cray cloud bread salvia.  <br> Actually offal meggings cliche godard listicle. Single-origin coffee fanny pack tilde vexillologist kombucha VHS. <br> Blue bottle vaporware you probably haven't heard of them pinterest.</p>
-            </li>
-            <li>
-                <h3>Formateur Chez <span class="red">WebForce3</span></h3>
-                <p>I'm baby bodega boys freegan <b>Schlitz Fingerstache,</b> pitchfork cardigan 90's. Messenger bag knausgaard cray cloud bread salvia.  <br> Actually offal meggings cliche godard listicle. Single-origin coffee fanny pack tilde vexillologist kombucha VHS. <br> Blue bottle vaporware you probably haven't heard of them pinterest.</p>
-            </li>
-            <li>
-                <h3>Formateur Chez <span class="red">WebForce3</span></h3>
-                <p>I'm baby bodega boys freegan <b>Schlitz Fingerstache,</b> pitchfork cardigan 90's. Messenger bag knausgaard cray cloud bread salvia.  <br> Actually offal meggings cliche godard listicle. Single-origin coffee fanny pack tilde vexillologist kombucha VHS. <br> Blue bottle vaporware you probably haven't heard of them pinterest.</p>
-            </li>
-        </ul>
-    </section>
-    <!-- //Fin section pro -->
+        <!-- organisation du texte -->
+        <!-- On organise le texte avec les headings, dans not cas nous avons un h1 et voulons un h2 -->
+        <h2>Coordonnées</h2>
+        <!-- on se sert d'un paragraphe pour donner une indication -->
+        <p>je suis disponible tout de suite contactez moi !</p>
+        <!-- J'utilise une balise adresse car je vais rentrer mes coordonnées -->
+        <section>
+            <address>
+                <!-- on utilise la balise anchor <a></a> a pour définir nos liens -->
+                <!-- dans ce cas précis on va donner un lien vers notre courriel -->
+                <a href="mailto:allio.arthur@free.fr">allio.arthur@free.fr</a>
+                <br>
+                <a href="+3617977211">+33-(0)-6-17-97-72-11</a>
+            </address>
+        </section>
 
-    <section>
-        <h2 id="formations">Formations & Diplomes obtenus</h2>
-        <ul>
-            <li>
-                <h3>Graphiste</h3>
-                <p>I'm baby bodega boys freegan <b>Schlitz Fingerstache,</b> pitchfork cardigan 90's. Messenger bag knausgaard cray cloud bread salvia.  <br> Actually offal meggings cliche godard listicle. Single-origin coffee fanny pack tilde vexillologist kombucha VHS. <br> Blue bottle vaporware you probably haven't heard of them pinterest.</p>
-            </li>
-            <li>
-                <h3>Couvreur</h3>
-                <p>I'm baby bodega boys freegan <b>Schlitz Fingerstache,</b> pitchfork cardigan 90's. Messenger bag knausgaard cray cloud bread salvia.  <br> Actually offal meggings cliche godard listicle. Single-origin coffee fanny pack tilde vexillologist kombucha VHS. <br> Blue bottle vaporware you probably haven't heard of them pinterest.</p>
-            </li>
-            <li>
-                <h3>Plombier</h3>
-                <p>I'm baby bodega boys freegan <b>Schlitz Fingerstache,</b> pitchfork cardigan 90's. Messenger bag knausgaard cray cloud bread salvia.  <br> Actually offal meggings cliche godard listicle. Single-origin coffee fanny pack tilde vexillologist kombucha VHS. <br> Blue bottle vaporware you probably haven't heard of them pinterest.</p>
-            </li>
-        </ul>
-    </section>
+        <section>
+            <h2 id="expPro" class="text-center">Expériences professionnelles</h2>
+            <!-- On va utiliser la liste non ordonnée -->
+            <ul>
+                <!-- On y insère ensuite des puces -->
+                <li>
+                    <!-- On place un titre -->
+                    <h3>Web développeur chez <span class="red"><a href ="https://www.wf3.fr" target="_blank">WebForce3</a></span></h3>
+                    <p>I'm baby bodega boys freegan <b>Schlitz Fingerstache,</b> pitchfork cardigan 90's. Messenger bag knausgaard cray cloud bread salvia.  <br> Actually offal meggings cliche godard listicle. Single-origin coffee fanny pack tilde vexillologist kombucha VHS. <br> Blue bottle vaporware you probably haven't heard of them pinterest.</p>
+                </li>
+                <li>
+                    <h3>Vendeur de glace chez <span class="red">Pablo</span></h3>
+                    <p>I'm baby bodega boys freegan <b>Schlitz Fingerstache,</b> pitchfork cardigan 90's. Messenger bag knausgaard cray cloud bread salvia.  <br> Actually offal meggings cliche godard listicle. Single-origin coffee fanny pack tilde vexillologist kombucha VHS. <br> Blue bottle vaporware you probably haven't heard of them pinterest.</p>
+                </li>
+                <li>
+                    <h3>Couvreur Zingueur chez <span class="red">Gibert</span></h3>
+                    <p>I'm baby bodega boys freegan <b>Schlitz Fingerstache,</b> pitchfork cardigan 90's. Messenger bag knausgaard cray cloud bread salvia.  <br> Actually offal meggings cliche godard listicle. Single-origin coffee fanny pack tilde vexillologist kombucha VHS. <br> Blue bottle vaporware you probably haven't heard of them pinterest.</p>
+                </li>
+                <li>
+                    <h3>Graphiste chez <span class="red">Tie Rack</span></h3>
+                    <p>I'm baby bodega boys freegan <b>Schlitz Fingerstache,</b> pitchfork cardigan 90's. Messenger bag knausgaard cray cloud bread salvia.  <br> Actually offal meggings cliche godard listicle. Single-origin coffee fanny pack tilde vexillologist kombucha VHS. <br> Blue bottle vaporware you probably haven't heard of them pinterest.</p>
+                </li>
+            </ul>
+        </section>
+        <!-- //Fin section pro -->
+
+        <br>
+
+        <section>
+            <h2 id="formations" class="text-center">Formations & Diplomes obtenus</h2>
+            <ul>
+                <li>
+                    <h3>Développeur</h3>
+                    <p>I'm baby bodega boys freegan <b>Schlitz Fingerstache,</b> pitchfork cardigan 90's. Messenger bag knausgaard cray cloud bread salvia.  <br> Actually offal meggings cliche godard listicle. Single-origin coffee fanny pack tilde vexillologist kombucha VHS. <br> Blue bottle vaporware you probably haven't heard of them pinterest.</p>
+                </li>
+                <li>
+                    <h3>Couvreur</h3>
+                    <p>I'm baby bodega boys freegan <b>Schlitz Fingerstache,</b> pitchfork cardigan 90's. Messenger bag knausgaard cray cloud bread salvia.  <br> Actually offal meggings cliche godard listicle. Single-origin coffee fanny pack tilde vexillologist kombucha VHS. <br> Blue bottle vaporware you probably haven't heard of them pinterest.</p>
+                </li>
+                <li>
+                    <h3>Graphiste</h3>
+                    <p>I'm baby bodega boys freegan <b>Schlitz Fingerstache,</b> pitchfork cardigan 90's. Messenger bag knausgaard cray cloud bread salvia.  <br> Actually offal meggings cliche godard listicle. Single-origin coffee fanny pack tilde vexillologist kombucha VHS. <br> Blue bottle vaporware you probably haven't heard of them pinterest.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
 
 </body>
 </html>

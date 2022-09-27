@@ -3,3 +3,30 @@
 .red {
     color: rgb(247, 6, 6);
 }
+
+.text-center {
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* je décide que mes liens ne soient pas soulignés */
+a {
+    text-decoration: none;
+    /* la couleur de tous les liens */
+    color: blueviolet;
+}
+
+/* je décide de la couleur des liens visités */
+a:visited {
+    color : green;
+}
+
+/*changement de couleur lors du survol des liensS*/
+a:hover {
+    background: orange;
+    color: black;
+    text-decoration: underline;
+}
